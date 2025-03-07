@@ -1,4 +1,4 @@
-# Image-Handling-and-Pixel-Transformations-Using-OpenCV 
+![7](https://github.com/user-attachments/assets/c649d3ea-9a8a-42fb-b4b7-8f03855103d3)# Image-Handling-and-Pixel-Transformations-Using-OpenCV 
 ## AIM:
 Write a Python program using OpenCV that performs the following tasks:
 
@@ -241,12 +241,14 @@ plt.show()
 
 1.Create brighter and darker images and display:
 
-![Uploading 7.png…]()
+![7](https://github.com/user-attachments/assets/ec8aa756-4cea-4e1f-a51a-70d4ba522b2f)
 
 
 - ### **iii)** Modify Image Contrast.  
 1. Modify contrast using scaling factors 1.1 and 1.2:
 
+
+![8](https://github.com/user-attachments/assets/37727e18-bf53-4bc7-b033-dc504da78b49)
 
 
 
@@ -254,6 +256,7 @@ plt.show()
 
 1.Split 'Boy.jpg' into B, G, R components and display:
 
+![9](https://github.com/user-attachments/assets/f3a61eed-0d42-4694-961d-2f608f807310)
 
 
 
@@ -271,7 +274,8 @@ plt.show()
 
 4.Merge the H, S, V channels and display:
 
-![Uploading 12.png…]()
+![12](https://github.com/user-attachments/assets/a9e98f6e-237b-46d0-94d3-51eb64e003bc)
+
 
 
 ## Result:

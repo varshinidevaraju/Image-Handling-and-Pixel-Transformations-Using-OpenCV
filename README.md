@@ -77,23 +77,23 @@ img.shape
 
 #### 7. Crop the image to extract any specific (Eagle alone) object from the image.
 ```python
-cr = img_rgb[200:400,200:400] 
-plt.imshow(cr)
+crop = img_rgb[0:450,200:550] 
+plt.imshow(crop[:,:,::-1])
 plt.title("Cropped Region")
 plt.axis("off")
 plt.show()
-cr.shape
+crop.shape
 ```
 
 #### 8. Resize the image up by a factor of 2x.
 ```python
-res= cv2.resize(cr,(200*2, 200*2))
+res= cv2.resize(crop,(200*2, 200*2))
 ```
 
 #### 9. Flip the cropped/resized image horizontally.
 ```python
 flip= cv2.flip(res,1)
-plt.imshow(flip)
+plt.imshow(flip[:,:,::-1])
 plt.title("Flipped Horizontally")
 plt.axis("off")
 ```
@@ -224,12 +224,14 @@ plt.show()
 
   3.Cropped image:
 
-  ![3](https://github.com/user-attachments/assets/7327b8c4-2676-4d5c-a97a-e4c9c9a280ad)
+  ![20](https://github.com/user-attachments/assets/196b6c49-02db-4699-9462-d25e40d06158)
+
 
 
   4.Resize and flip Horizontally:
 
-  ![4](https://github.com/user-attachments/assets/60729adb-d868-4d42-afc2-012a5cbd8f36)
+  ![22](https://github.com/user-attachments/assets/8f1c433d-9eef-4e93-bbf3-60a201b0992f)
+
 
 
   5.Read 'Apollo-11-launch.jpg' and  Display the final annotated image:

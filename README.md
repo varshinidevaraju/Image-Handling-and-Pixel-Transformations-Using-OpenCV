@@ -214,7 +214,7 @@ plt.show()
 - ### **i)** Read and Display an Image.  
    1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
 
-  ![alt text](<greyscale eagle.png>)
+  !(<greyscale eagle.png>)
 
   2.Save image as PNG and display:
 
@@ -255,7 +255,7 @@ plt.show()
 
 3.Split the image into H, S, V components and display:
 
-![alt text](<hsv boy.png>)
+!(<hsv boy.png>)
 
 4.Merge the H, S, V channels and display:
 

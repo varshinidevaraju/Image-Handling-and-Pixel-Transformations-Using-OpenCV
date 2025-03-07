@@ -214,52 +214,65 @@ plt.show()
 - ### **i)** Read and Display an Image.  
    1.Read 'Eagle_in_Flight.jpg' as grayscale and display:
 
-  !(<greyscale eagle.png>)
+  ![1](https://github.com/user-attachments/assets/d8663524-d0f1-410e-847d-49c843ca4ad7)
+
 
   2.Save image as PNG and display:
 
-  ![alt text](<png eagle.png>)
+ ![2](https://github.com/user-attachments/assets/b19e0a1d-3c75-453f-9d24-0fb6b7f78b03)
+
 
   3.Cropped image:
 
-  ![alt text](<cropped region.png>)
+  ![3](https://github.com/user-attachments/assets/7327b8c4-2676-4d5c-a97a-e4c9c9a280ad)
+
 
   4.Resize and flip Horizontally:
 
-  ![alt text](<flipped horizontally.png>)
+  ![4](https://github.com/user-attachments/assets/60729adb-d868-4d42-afc2-012a5cbd8f36)
+
 
   5.Read 'Apollo-11-launch.jpg' and  Display the final annotated image:
 
-  ![alt text](<apollo annotated .png>)
+  ![5](https://github.com/user-attachments/assets/78a5082b-6721-48ae-872d-73f4f69f8aa8)
+
 
 - ### **ii)** Adjust Image Brightness.
 
 1.Create brighter and darker images and display:
 
-![alt text](<bright and dark boy.png>)
+![Uploading 7.png…]()
+
 
 - ### **iii)** Modify Image Contrast.  
 1. Modify contrast using scaling factors 1.1 and 1.2:
 
-![alt text](<contrast boy.png>)
+
+
 
 - ### **iv)** Generate Third Image Using Bitwise Operations.
 
 1.Split 'Boy.jpg' into B, G, R components and display:
 
-![alt text](<bgr boy.png>)
+
+
 
 2.Merge the R, G, B channels and display:
 
-![alt text](<Merged rgb boy.png>)
+![10](https://github.com/user-attachments/assets/2bdf5915-e807-4ef4-9775-c6677c7fc5f0)
+
+
+
 
 3.Split the image into H, S, V components and display:
 
-!(<hsv boy.png>)
+![11](https://github.com/user-attachments/assets/6d700253-7cc9-41d2-8699-c12193a63dac)
+
 
 4.Merge the H, S, V channels and display:
 
-![alt text](<merged hsv with original.png>)
+![Uploading 12.png…]()
+
 
 ## Result:
 Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
